@@ -27,6 +27,7 @@ Curated rulesets and skills designed to guide AI coding assistants (Claude Code,
 | [**Designlang / Design Extract**](https://github.com/Manavarya09/design-extract) | Crawls any live website and extracts its full design system, tokens, and Tailwind config into an AI-ready `DESIGN.md`. | Copy Website Template | `npx designlang <url>` |
 | [**Huashu Motion**](https://github.com/alchaincyf/huashu-motion) | Agent skill that empowers AI coding assistants to generate motion graphics and product launch videos using code (Canvas, GSAP, Three.js) without diffusion artifacts. | Code-Driven Video & Motion | `npx skills add alchaincyf/huashu-motion` |
 | [**Ponytail**](https://github.com/dietrichgebert/ponytail) | The "laziest senior dev in the room" skill. Forces AI agents to write minimal code and avoid over-engineering or unnecessary dependencies. | Minimal Code / Simplicity | `npx skills add DietrichGebert/ponytail` |
+| [**React Bits Skill**](https://github.com/youssefvdel/reactbits-skill) | Agent skill for React Bits: price a component by its real source and dependencies, install or vendor it, or survey all 218 against a design system before refactoring. Ships the worked catalogue of 218 components with a verdict and a reason each. | Component Selection & Motion Systems | `git clone https://github.com/youssefvdel/reactbits-skill` |
 
 ---
 

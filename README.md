@@ -27,7 +27,7 @@ Curated rulesets and skills designed to guide AI coding assistants (Claude Code,
 | [**Designlang / Design Extract**](https://github.com/Manavarya09/design-extract) | Crawls any live website and extracts its full design system, tokens, and Tailwind config into an AI-ready `DESIGN.md`. | Copy Website Template | `npx designlang <url>` |
 | [**Huashu Motion**](https://github.com/alchaincyf/huashu-motion) | Agent skill that empowers AI coding assistants to generate motion graphics and product launch videos using code (Canvas, GSAP, Three.js) without diffusion artifacts. | Code-Driven Video & Motion | `npx skills add alchaincyf/huashu-motion` |
 | [**Ponytail**](https://github.com/dietrichgebert/ponytail) | The "laziest senior dev in the room" skill. Forces AI agents to write minimal code and avoid over-engineering or unnecessary dependencies. | Minimal Code / Simplicity | `npx skills add DietrichGebert/ponytail` |
-| [**React Bits Skill**](https://github.com/youssefvdel/reactbits-skill) | Agent skill for React Bits: price a component by its real source and dependencies, install or vendor it, or survey all 218 against a design system before refactoring. Ships the worked catalogue of 218 components with a verdict and a reason each. | Component Selection & Motion Systems | `git clone https://github.com/youssefvdel/reactbits-skill` |
+| [**React UI Skill**](https://github.com/youssefvdel/reactbits-skill) | Agent skill for choosing React UI across three sources: React Bits (218 motion components, each with a verdict from its real source), HeroUI v3 (72 React Aria components for product surfaces) and Untitled UI React (101 groups, MIT core). Routes the library before the component, and says when each is the wrong answer. | Component Selection & Motion Systems | `git clone https://github.com/youssefvdel/reactbits-skill` |
 
 ---
 
@@ -37,6 +37,8 @@ Inspiration galleries, universal component libraries, physics notifications, and
 
 | Resource | Description | Category |
 | :--- | :--- | :--- |
+| [**HeroUI**](https://www.heroui.com/en/docs/react/components) | 72 accessible React components on Tailwind v4 and React Aria — buttons, tables, modals, pickers, forms, overlays. Installed as a package, not copied. | Accessible App Components | `bun add @heroui/styles @heroui/react` |
+| [**Untitled UI React**](https://www.untitledui.com/react/components) | ~101 component groups copied into your repo: base components, application UI (tables, charts, pagination, drawers) and marketing sections. React Aria + Tailwind v4.3, MIT core. | React Design System Source | `npx untitledui@latest add [component]` |
 | [**React Bits**](https://reactbits.dev/) | An open-source collection of animated, interactive, and customizable React components built with modern animation libraries. | Animated React Components |
 | [**gluestack-ui**](https://github.com/gluestack/gluestack-ui) | Universal, accessible copy-paste component library for React, Next.js, and React Native / Expo styled with Tailwind CSS & NativeWind. | Universal UI Library |
 | [**Lenis**](https://github.com/darkroomengineering/lenis) | Industry-standard lightweight, robust smooth-scrolling engine for modern web apps, parallax effects, and GSAP ScrollTrigger. | Smooth Scrolling Engine |
